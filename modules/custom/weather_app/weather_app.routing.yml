@@ -1,0 +1,7 @@
+weather_app.weather_block:
+  path: '/weather'
+  defaults:
+    _controller: '\Drupal\weather_app\Controller\WeatherController::weatherBlock'
+    _title: 'Weather Block'
+  requirements:
+    _permission: 'access content'
